@@ -36,7 +36,6 @@ nav {
   background-color: #333;
   color: #eee;
   position: fixed;
-  z-index: 10;
 }
 
 nav ul {
@@ -57,7 +56,7 @@ nav a {
   padding: 10px 0;
   color: #eee;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1;
 }
 
@@ -239,6 +238,11 @@ footer h3{
 /* 500px */
 @media screen and (min-width: 500px) {
 
+  nav a {
+    font-size: 16px;
+    line-height: 1;
+  }
+
   #landing {
     display: flex;
     height: 100%;
@@ -257,6 +261,13 @@ footer h3{
 
 /* 700px */
 @media screen and (min-width: 700px) {
+
+  nav a {
+    font-size: 18px;
+    line-height: 1;
+  }
+
+
   .btn {
     padding: 1rem 3rem;
   }
